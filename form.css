@@ -11,6 +11,8 @@ h1 {
     margin-bottom: 40px;
 }
 
+
+
 label {
     width: 350px;
     text-align: center;
@@ -21,12 +23,13 @@ label {
 
 .redBG {
     background-color: red;
-    width: 350px;
-    margin-top: 10px;
+    width: 450px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .blackB {
-    margin: auto;
+    position: relative;
     outline: 3px black solid;
     border-radius: 2px;
 }
@@ -38,4 +41,16 @@ label {
 #upper {
     color: aqua;
     background-color: black;
+}
+
+.test {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+.upper {
+    color: rgb(200, 235, 6);
+    background-color: rgb(43, 7, 202);
 }
