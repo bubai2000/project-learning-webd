@@ -1,22 +1,51 @@
-<!--See the respective css file for styling details-->
+<!--See the respective css and js file for styling details-->
 <html>
     <head>
         <title>Sample Form</title>
         <link rel="stylesheet" href="form.css">
     </head>
     <body>
-        <h1 center>This is a sample form!</h1>
-        <label name="form">Please fill up this form!</label>
-        <form name="form" class="redBG">
+        <h1>This is a sample form!</h1>
+        <text id="upper">Please fill up this form!</text>
+        <form name="form" class="redBG" action="view.html">
+            <label name="name">Name:</label>
+            <input type="text" name="name" id="name">
+            
             <div>
-                <label name="name">Name:</label>
-                <input type="text" name="name" id="name">
+                DOB: <input type="date" name="dob" id="dob">
             </div>
+
+            <p>Enter your email: <input type="email" id="email"></p>
+            
+            Enter your expected salary: <input type="number" name="salary" id="salary">
+                
+            <label name="gender" class="blackB">Gender:</label> <input type="radio" name="gender" id="gender" value="male" checked> Male
+            <input type="radio" name="gender" id="gender" value="female"> Female
+            <input type="radio" name="gender" id="gender" value="other"> Other
+
             <div>
-                <label name="gender">Gender:</label> <input type="radio" name="gender" id="gender" value="male" checked> Male
-                <input type="radio" name="gender" id="gender" value="female"> Female
-                <input type="radio" name="gender" id="gender" value="other"> Other
+                <label name="Car", class="blackB orangeT">Car:</label>
+                <select name="Car" id="cars">
+                    <option value="Not selected">Select</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>       
             </div>
+
+            <p>Where do you see yourself in 5 years?</p>
+            <textarea></textarea>
+            <br>
+
+            Are you available immediately?<input type="checkbox">
+
+            <p>Upload your CV: <input type="file"></p>
+
+            <p><input type="submit"> <input type="reset"></p>
+
         </form>
+    
     </body>
+
 </html>
