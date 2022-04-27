@@ -1,0 +1,31 @@
+h1 {
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    font-family: "Vrinda";
+    outline: 5px black solid;
+    outline-offset: 2px;
+    border-radius: 1px;
+    margin-bottom: 40px;
+}
+
+label {
+    width: 350px;
+    text-align: center;
+    color: white;
+    background-color: rgb(9, 9, 238);
+    font-family: "Vrinda";
+}
+
+.redBG {
+    background-color: red;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.blackB {
+    outline: 1px black solid;
+    border-radius: 1px;   
+}
