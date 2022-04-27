@@ -7,7 +7,7 @@
     <body>
         <h1>This is a sample form!</h1>
         <text id="upper">Please fill up this form!</text>
-        <form name="form" class="redBG" action="view.html">
+        <form name="form" class="redBG" action="view.html" method="post"> <!--In get method, id values are passed in url string but in post id values are hidden-->
             <label name="name">Name:</label>
             <input type="text" name="name" id="name">
             
@@ -36,9 +36,8 @@
 
             <p>Where do you see yourself in 5 years?</p>
             <textarea></textarea>
-            <br>
 
-            Are you available immediately?<input type="checkbox">
+            <p>Are you available immediately?<input type="checkbox"></p>
 
             <p><text id="upper">Upload your CV:</text> <input type="file"></p>
 
