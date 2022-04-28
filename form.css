@@ -1,6 +1,6 @@
 h1 {
     margin: auto;
-    width: 350px;
+    width: 450px;
     text-align: center;
     color: white;
     background-color: purple;
@@ -11,7 +11,14 @@ h1 {
     margin-bottom: 40px;
 }
 
+form {
+	margin: auto;
+	width: 450px;
+}
 
+table {
+	margin: auto;
+}
 
 label {
     width: 350px;
@@ -29,18 +36,12 @@ label {
 }
 
 .blackB {
-    position: relative;
     outline: 3px black solid;
     border-radius: 2px;
 }
 
 .orangeT {
     color: orange;
-}
-
-#upper {
-    color: aqua;
-    background-color: black;
 }
 
 .test {
@@ -51,6 +52,19 @@ label {
 }
 
 .upper {
+	margin: auto;
     color: rgb(200, 235, 6);
     background-color: rgb(43, 7, 202);
+}
+
+.align {
+	margin: auto;
+}
+
+#upper {
+	margin: auto;
+	width: 250px;
+    color: aqua;
+    background-color: black;
+    text-align: center;
 }
