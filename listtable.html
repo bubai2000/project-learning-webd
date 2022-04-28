@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Table</title>
+</head>
+<body>
+    <ul>
+        <li>Unordered Item</li>
+        <li>Unordered Item'</li>
+    </ul>
+    <hr>
+    <ul type="circle"> <!--also available 'disc', 'square'-->
+        <li>Unordered item</li>
+        <li>Unordered item</li>
+    </ul>
+    <hr>
+    <ul>
+        <li>
+            List under List
+            <ul>
+                <li>ITEM</li>
+                <li>Item</li>
+            </ul>
+        </li>
+        <li>Hi</li>
+    </ul>
+    <hr>
+    <ol>
+        <li>Ordered Item 1</li>
+        <li>Ordered Item 2</li>
+    </ol>
+    <hr>
+    <ol type="A"> <!--also available 1, A, a, I, i-->
+        <li>Ordered item A</li>
+        <li>Ordered item B</li>
+    </ol>
+
+    <hr>
+
+    <table> <!--tr menas table row, th header cell, td normal cell, caption table caption -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Mobile</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Soumya</td>
+                <td>118</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>Archit</td>
+                <td>120</td>
+                <td>5678</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!--Demo of colspan-->
+    <table>
+        <caption>Demo table</caption>
+        <colgroup>
+          <col span="2" style="background-color:red">
+          <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td>$53</td>
+        </tr>
+      </table>
+      
+    <a href="https://www.w3schools.com/html/html_tables.asp">More info about tables</a>
+</body>
+</html>
