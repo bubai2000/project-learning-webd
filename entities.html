@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entities</title>
+</head>
+<body>
+    <div class="test">
+        <p>This is a        paragraph</p> <!--Only one space will be printed-->
+    </div>
+    <div class="test">
+        <p>This is a &nbsp;&nbsp;&nbsp; paragraph</p> <!--nbsp stands for Non breaking space--><!--Recommended not to use, use css instead-->
+        <p>If we write <!--<p>--> it will not print beacuse it will consider ir as a tag</p>
+        <p>Instead write &lt;p&gt;</p>
+        <p>Pound: &pound; Copyright: &copy; Dollar: &dollar;</p>
+        <p>Empty character=> &#8203;</p>
+    </div>
+    <div class="test">
+        <a href="https://dev.w3.org/html5/html-author/charref">Know more about entities</a>
+        <br>
+        <a href="https://www.w3schools.com/charsets/ref_emoji.asp">Put emojis</a>
+    </div>
+</body>
+</html>
