@@ -1,0 +1,37 @@
+h1{
+    background-color: pink;
+    color: blue;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    width: 200px;
+    margin:auto;
+}
+
+div{
+    margin: 15px;
+    padding: 20px;
+    border-top: 5px dotted blue;
+}
+
+.redBG{
+    background-color:  red;
+}
+
+.redBG p{
+    background-color: aliceblue;
+}
+
+#greenTXT{
+    color: green;
+    border: 3px;
+    border-radius: 20px;
+}
+
+a{
+    cursor: pointer;
+}
