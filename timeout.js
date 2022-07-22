@@ -21,7 +21,7 @@ setInterval(()=>{ //using arrow function
     document.getElementById("time").textContent="Current time is "+ time;
 },1000)
 function rickroll(){
-    var temp = '<video controls src="rick.mp4" autoplay></video>';
+    var temp = '<video controls src="rick.mp4" autoplay muted></video>';
     var a = document.createElement("VIDEO");
     a.innerHTML = temp;
     document.getElementById('rickroll').appendChild(a.childNodes[0]);
