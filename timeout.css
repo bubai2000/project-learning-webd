@@ -1,0 +1,11 @@
+#text{
+    background-color: aqua;
+    text-align: center;
+}
+#time{
+    background-color: greenyellow;
+    color: blue;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+}
