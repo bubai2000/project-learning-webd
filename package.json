@@ -1,0 +1,22 @@
+{
+  "name": "project-learning-webd",
+  "version": "1.0.0",
+  "description": "This is the repository where I will host files that I make while learning HTML, CSS and Javascript",
+  "main": "jsevents.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubai2000/project-learning-webd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bubai2000/project-learning-webd/issues"
+  },
+  "homepage": "https://github.com/bubai2000/project-learning-webd#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
